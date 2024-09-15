@@ -1,8 +1,8 @@
-   build/
-   .vscode/*
-   .idea/
-   *.o
-   *.exe
-   deps/
-   .vs/
-   out/
+build/
+.vscode/*
+.idea/
+*.o
+*.exe
+deps/
+.vs/
+out/
