@@ -12,12 +12,10 @@
 #pragma once
 #include <string>
 
-using Str = std::string;
-
 struct ServerInfo
 {
-    Str address;
+    std::string address;
     int port;
-    Str username;
-    Str password;
+    std::string username;
+    std::string password;
 };

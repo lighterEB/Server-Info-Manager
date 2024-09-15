@@ -1,7 +1,8 @@
-   build/*
+   build/
    .vscode/*
-   .idea/*
+   .idea/
    *.o
    *.exe
-   deps/*
-   .vs/*
+   deps/
+   .vs/
+   out/
