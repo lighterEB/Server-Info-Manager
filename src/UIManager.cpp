@@ -12,10 +12,24 @@
 #include "UIManager.h"
 
 void UIManager::renderUI(std::vector<ServerInfo>& servers) {
-    ImGui::Begin("Server Information Manager");
+    // ImGui::Begin("Server Information Manager");
+    // renderAddButton(servers);
+    // renderTable(servers);
+    // ImGui::End();
+    // if (ImGui::BeginMainMenuBar())
+    // {
+    //     if (ImGui::BeginMenu("File"))
+    //     {
+    //         if (ImGui::MenuItem("Exit"))
+    //         {
+    //             /* code */
+    //         }
+    //         ImGui::EndMenu();
+    //     }
+    //     ImGui::EndMainMenuBar();
+    // }
     renderAddButton(servers);
     renderTable(servers);
-    ImGui::End();
 }
 
 void UIManager::renderTable(std::vector<ServerInfo>& servers) {

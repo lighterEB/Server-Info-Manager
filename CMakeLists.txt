@@ -46,3 +46,7 @@ add_custom_command(TARGET ServerInfoManager POST_BUILD
     "${GLFW_DIR}/lib-vc2017/glfw3.dll"
     $<TARGET_FILE_DIR:ServerInfoManager>
 )
+
+if(WIN32)
+     set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup")
+endif()
